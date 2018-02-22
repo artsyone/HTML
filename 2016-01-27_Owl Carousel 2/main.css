@@ -1,0 +1,43 @@
+
+body {
+    background-color: #29A3CC;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+header {
+    background-color: #08698A;
+    padding: 20px;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+footer {
+    border-top: 2px solid #555555;
+    padding: 10px;
+}
+
+h1 {
+    color: #EEEEEE;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+
+}
+
+p.info {
+    text-align: center;
+}
+
+footer p {
+    color: #555555;
+    margin: 0;
+    text-align: center;
+}

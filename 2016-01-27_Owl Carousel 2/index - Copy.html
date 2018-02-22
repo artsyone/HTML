@@ -1,0 +1,64 @@
+<html lang="en">
+
+    <head>
+        <title>Owl Carousel 2 Demo</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.default.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header>
+            <h1>Snowborders</h1>
+        </header>
+
+        <div class="container">
+
+            <!-- begin carousel -->
+
+            <div id="carousel">
+
+                <img src="img/snow1_.jpg" alt="Snowborder">
+                <img src="img/snow2_.jpg" alt="Snowborder leaning back">
+                <img src="img/snow3_.jpg" alt="Kids snowboarding">
+                <img src="img/snow4_.jpg" alt="Snowborder on ramp">
+                <img src="img/snow5_.jpg" alt="Artsy snow photo">
+                <img src="img/snow6_.jpg" alt="Man doing trick on rail">
+                
+                
+            </div>
+
+            <!-- end carousel -->
+
+            <p class="info">This page is a demo of <a href="http://smashingboxes.github.io/OwlCarousel2/">Owl Carousel 2</a> using <a href="https://jquery.com/">jQuery</a>.</p>
+
+        </div>
+
+        <footer>
+          <p>Created Jan. 28, 2016</p>
+        </footer>
+
+
+        <!-- javascript -->    
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+            $("#carousel").owlCarousel({
+                items : 3,
+                margin : 10,
+                loop : true,
+                autoplay : true,
+                autoplayTimeout : 2000, /* in miliseconds! */
+                autoplayHoverPause : true,
+                dots : true,
+                nav : false
+            });
+        </script>
+
+
+    </body>
+</html>

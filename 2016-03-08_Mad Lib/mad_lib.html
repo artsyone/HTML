@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>Savanna's Madlibs</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<h1>Personal Ad</h1>
+
+<div class="data">
+
+    <p class="instructions">Enter a value into each field. Then press 'Make Story' to read the story you made.</p>
+<form>
+Give an adjective  <input type="text" id='adjective1'> <br>
+Give a verb ending in "ED" <input type="text" id='verb'> <br>
+Give a Noun(plural) <input type="text" id='noun1'> <br>
+Give a Liquid <input type="text" id='liquid'> <br>
+Give a name of Famous Person <input type="text" id='name'> <br>
+Give a Place <input type="text" id='place'> <br>
+
+Give a Noun <input type="text" id='noun2'> <br>
+Give a Nationality  <input type="text" id='nationality'> <br>
+Give a Female celebrity <input type="text" id='female1'> <br>
+Give a Noun <input type="text" id='noun3'> <br>
+Give a Female Friend <input type="text" id='female2'> <br>
+Give a Noun (plural) <input type="text" id='noun4'> <br>
+Give a Number <input type="number" id='number'> <br>
+Give a Adjective <input type="text" id='adjective2'> <br>
+
+
+<input type="button" onclick="makeStory()" value="Submit">
+</form>   
+
+</div>
+
+<div class="story">
+    <h2 id="title"></h2>
+
+    <p id="one">Complete the form to the left to see a story.</p>
+    <p id="two"></p>
+    <p id="three"></p>
+
+</div>
+<script src="story_maker.js"></script>
+</body>
+</html>

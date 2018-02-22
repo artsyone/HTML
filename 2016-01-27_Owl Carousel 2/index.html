@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Owl Carousel 2 Demo</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<header>
+    <h1>Owl Carousel 2 Demo</h1>
+</header>
+
+<div class="container">
+
+    <!-- begin carousel -->
+<div id="my-carousel">
+<img src="img/1.png" alt="1">
+<img src="img/2.png" alt="2">
+<img src="img/3.png" alt="3">
+<img src="img/4.png" alt="4">
+<img src="img/5.png" alt="5">
+<img src="img/6.png" alt="6">
+
+
+    <!-- end carousel -->
+
+    <p class="info">This page is a demo of <a href="http://smashingboxes.github.io/OwlCarousel2/">Owl Carousel 2</a> using <a href="https://jquery.com/">jQuery</a>.</p>
+
+</div>
+
+<footer>
+  <p>Created Jan. 28, 2016</p>
+</footer>
+
+
+<!-- javascript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+$('#my-carousel').owlCarousel({
+    items: 1,
+    margin: 10,
+    loop: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout:4000,
+})
+</script>
+</body>
+</html>
