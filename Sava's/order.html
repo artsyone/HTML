@@ -1,0 +1,52 @@
+ <!DOCKTYPE>
+<html>
+
+<head>
+<title >Takeout Form</title>
+<link rel="stylesheet" href="css/main.css">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+ <h2> Order Form</h2>
+               
+            <form action="thanks.html" method="post">
+                <fieldset>
+                    <legend>Takeout Info:</legend>
+                    Name: <input type="text" name="firstname"><br>
+                    Address: <input type="text" name="address"><br>
+                    State: <input type="text" name="state">
+                    City: <input type="text" name="city">
+                    Zip: <input type="text" name="zip"><br>
+                </fieldset>
+            
+            <fieldset>
+            
+            <legend>Order Info:</legend>
+            Amount:
+            <select name="15">
+             <option value="15">$25</option>
+            <option value="25">$35</option>
+            <option value="40">$50</option>
+            <option value="50">$60</option>
+            </select>
+            Quantity:
+            <input type="text" name="quantity"><br>
+                   </fieldset>
+                    <fieldset>
+                <legend>Order Info:</legend>
+            Card Type:
+            <input type="radio" name="Card Type:" value="Visa"> Visa
+            <input type="radio" name="Card Type:" value="Mastercard"> Mastercard
+            <input type="radio" name="Card Type:" value="Discover"> Discover<br>
+            Credit Card Number:
+            <input type="text" name="Card Number"><br>
+            <button type="submit"  formaction="thanks1.html">Place Order </button>
+            
+            
+            
+            </fieldset>
+            </form>
+            
+          </body>
+</html>  

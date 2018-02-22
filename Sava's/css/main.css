@@ -1,0 +1,218 @@
+body {
+font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+    color: #343539;
+    border-bottom: solid;
+}
+
+h3 {
+color: #000000;
+ border-bottom: solid;
+
+}
+
+h4 {
+color: #ffffff;
+
+}
+h4 {
+
+}
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+    list-style-type:none;
+    
+    
+}
+
+li {
+float:left;
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+img{
+    max-width: 100%;
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+
+.container {
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+body {
+    background-color: #CCCCCC;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background-color: #5b4640;
+    margin: 0 auto;
+    max-width: 900px;
+   
+}
+.container2 {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.container3 {
+    background-color: #5b4640;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row > * {
+    /* The border is just to visualize columns during layout. Remove in finished site. */
+    border: 1px solid #BBBBBB;
+
+    padding: 15px;
+    position: relative;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+
+.logo {
+    width:100%;
+}
+
+.navbar{
+    width:11%;
+    
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+table {
+    border: 2px solid #000000;
+    border-spacing: 4px;
+}
+ tr.alt {
+    background-color: #EEEEEE
+    
+ }
+ th{
+    background-color: #FFFFFF;
+    color: #B3001B;
+    padding: 4px;
+ }
+th.sub{background color: #000000;
+
+ }
+ td{  background-color: #FFFFFF;
+    color: #4A6D32s
+    
+ }
+  
+li.small{ font-size:12px  ;
+    
+    
+ }
+   
+h2.menu2{ font-size:55px  ;
+    font-family: 'Gentium Book Basic', serif;
+    border: none;
+    
+ }
+.imgfloat{
+    float: left;
+    
+}
+.form{
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+.takeoutform{
+    background-color:#FFFFFF; 
+}
+.white{background-color: #FFFFFF}
