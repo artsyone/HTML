@@ -1,0 +1,55 @@
+/*** layout styles ***/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CCCCCC;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row > * {
+    /* The border is just to visualize columns during layout. Remove in finished site. */
+    border: 1px solid #BBBBBB;
+
+    padding: 15px;
+}
+
+.one-third {
+    width: 33.333333%;
+}
+
+.two-thirds {
+    width: 66.666666%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.three-fourths {
+    width: 75%;
+}
+
+.full {
+    width: 100%;
+}
