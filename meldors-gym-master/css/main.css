@@ -1,0 +1,289 @@
+/* Here be dragons. */
+
+body {
+    background-color: #ccc;
+    font-family: sans-serif
+}
+
+h2,h3 {
+    color: #343539;
+    border-bottom: solid
+}
+
+h4 {
+    color: black;
+}
+
+li a {
+    color: white;
+}
+
+.navbar ul,body,ul {
+    margin: 0;
+    padding: 0
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333
+}
+
+li {
+    float: left
+}
+
+.container1,.container2,.container3 {
+    background-color: #003ae7;
+    margin: 0 auto;
+    max-width: 900px
+}
+
+.container2,.container3 {
+    background-color: white;
+}
+
+.container3 {
+    background-color: #003ae7
+}
+
+.no-padding {
+    padding: 0!important;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+li a:hover {
+    background-color: #111
+}
+
+table {
+    border: 2px solid #000;
+    border-spacing: 4px
+}
+
+tr.alt {
+    background-color: #eee
+}
+
+td,th {
+    background-color: white;
+}
+
+th {
+    padding: 4px;
+    color: #b3001b
+}
+
+th.sub {
+    background-color: #000
+}
+
+td {
+    color: #4a6d32
+}
+
+li.small {
+    font-size: 12px
+}
+
+h2.menu2 {
+    font-size: 55px;
+    border: 0
+}
+
+.imgfloat {
+    float: left
+}
+
+.takeoutform,.white {
+    background-color: #fff
+}
+
+html {
+    box-sizing: border-box
+}
+
+*,:after,:before {
+    box-sizing: inherit
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.row>* {
+    /* border: 1px solid #bbb; */
+    padding: 15px;
+    position: relative
+}
+
+.one-sixth {
+    width: 16.666666%
+}
+
+.one-fifth {
+    width: 20%
+}
+
+.one-fourth {
+    width: 25%
+}
+
+.one-third {
+    width: 33.333333%
+}
+
+.two-fifths {
+    width: 40%
+}
+
+.one-half {
+    width: 50%
+}
+
+.two-thirds {
+    width: 66.666666%
+}
+
+.three-fifths {
+    width: 60%
+}
+
+.three-fourths {
+    width: 75%
+}
+
+.four-fifths {
+    width: 80%
+}
+
+.five-sixths {
+    width: 83.333333%
+}
+
+.full {
+    width: 100%
+}
+
+.navbar {
+    background-color: #bbb
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.navbar li {
+    border-right: 1px solid #777
+}
+
+.navbar li:last-child {
+    border: 0
+}
+
+.navbar a:link,.navbar a:visited {
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none
+}
+
+.navbar a:active,.navbar a:hover {
+    background-color: #777
+}
+
+.left,.right {
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.right {
+    float: right
+}
+
+.left {
+    margin-left: 10px
+}
+
+.center {
+    display: block;
+    margin: 0 auto
+}
+
+.lower-left,.lower-right,.upper-left,.upper-right {
+    position: absolute;
+    margin: 0
+}
+
+.upper-left {
+    top: 15px;
+    left: 15px
+}
+
+.upper-right {
+    top: 15px;
+    right: 15px
+}
+
+.lower-right {
+    bottom: 15px;
+    right: 15px
+}
+
+.lower-left {
+    bottom: 15px;
+    left: 15px
+}
+
+@media screen and (max-width:600px) {
+    .five-sixths,.four-fifths,.full,.one-fifth,.one-fourth,.one-half,.one-sixth,.one-third,.three-fifths,.two-fifths,.two-thirds {
+        padding: 10px;
+        width: 100%
+    }
+
+    .hide-mobile {
+        display: none
+    }
+
+    .static-mobile {
+        position: static
+    }
+}
+
+@media (min-width:601px) {
+    .hide-desktop {
+        display: none
+    }
+
+    .static-desktop {
+        position: static
+    }
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin: -15px;
+}
